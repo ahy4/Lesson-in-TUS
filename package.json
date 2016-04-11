@@ -1,0 +1,23 @@
+{
+  "name": "lecture",
+  "version": "1.0.0",
+  "description": "<script type=\"text/javascript\" src=\"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default\"></script> ![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=) githubのtexテスト",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahyahya/Lesson-in-TUS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahyahya/Lesson-in-TUS/issues"
+  },
+  "homepage": "https://github.com/ahyahya/Lesson-in-TUS#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-replace": "^0.5.4"
+  }
+}
