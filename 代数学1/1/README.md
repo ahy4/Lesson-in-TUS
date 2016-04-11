@@ -60,9 +60,10 @@ $$$\frac{b}{a} \oplus \frac{d}{c} = \frac{b+d}{a+c}$$$
 
 はwell-definedではない
 
-$$$\frac{1}{2} \oplus \frac{1}{3} = \frac{2}{5}$$$
-
-$$$\frac{2}{4} \oplus \frac{1}{3} = \frac{3}{7}$$$
+$$$
+\frac{1}{2} \oplus \frac{1}{3} = \frac{2}{5}
+\frac{2}{4} \oplus \frac{1}{3} = \frac{3}{7}
+$$$
 
 ## 定理 0.1
 
