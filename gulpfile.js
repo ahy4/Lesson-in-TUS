@@ -1,9 +1,66 @@
 var gulp = require('gulp');
-var replace = require('gulp-replace');
+// var replace = require('gulp-replace');
+var fs = require('fs-extra');
+var path = require('path');
+var Promise = require('bluebird');
 
-gulp.task("default", function () {
-  gulp
-    .src(["代数学1/1/README.md"])
-    .pipe(replace(/\${3}(.*)\${3}/g, 'foo$1foo'))
-    .pipe(gulp.dest('build/file.txt'));
+gulp.task("build", function () {
+  walk('./local-edit', function (fp) {
+    if (fp.match(/(.*)(?:\.([^.]+$))/)[2] === "md") {
+      writeMd(fp);
+    }
+  });
 });
+
+function writeMd(fp) {
+  var readPath = fp;
+  var writePath = fp.replace('local-edit', 'publish');
+  fs.mkdirsSync(writePath.split("/").slice(0, -1).join("/"));
+  fs.readFile(readPath, 'utf8', function (err, text) {
+    var cleanMd = replaceToImage(text);
+    fs.writeFile(writePath, cleanMd, function (err) {
+      if (!err) {
+        console.log('making '+fp+': success!');
+      } else {
+        console.error('making '+fp+': failure')
+      }
+    });
+  });
+}
+
+function replaceToImage(text) {
+  var texs = (text.match(/\${3}(.*)\${3}/g)||[]).map(function (incompleteTex) {
+    var tex = incompleteTex.match(/\${3}(.*)\${3}/)[1];
+    var query = escape(tex);
+    return {
+      original: incompleteTex.match(/\${3}(.*)\${3}/)[0],
+      imageMd: '<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B300%7D%20%5Chuge%20'+query+'" style="zoom:0.18;">',
+    };
+  });
+  texs.forEach(function (o) {
+    // if (typeof o.original === "undefined") return;
+    text = text.replace(o.original, o.imageMd);
+  });
+  return text;
+}
+
+
+function walk(p, fileCallback) {
+  fs.readdir(p, function(err, files) {
+    if (err) return console.log("Receive err:" + err);
+    files.forEach(function(f) {
+      var fp = path.join(p, f);
+      if(fs.statSync(fp).isDirectory()) {
+        walk(fp, fileCallback);
+      } else {
+        fileCallback(fp);
+      }
+    });
+  });
+};
+
+
+// 使う方
+// walk(dir, function(path) {
+//   console.log(path); // ファイル１つ受信
+// });

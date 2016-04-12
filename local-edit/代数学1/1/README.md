@@ -3,14 +3,14 @@
 ## 定義 0.1
 集合AからBへの写像fに対して、
 
-1. foo\forall{} a, b \in A  f(a) = f(b) \Rightarrow{} a = bfoo　を満たす時、fは単射と呼ばれる
-2. foo\forall{} c \in B, \exists a f(a) = cfoo を満たす時fは全射
+1. $$$\forall{} a, b \in A  f(a) = f(b) \Rightarrow{} a = b$$$　を満たす時、fは単射と呼ばれる
+2. $$$\forall{} c \in B, \exists a f(a) = c$$$ を満たす時fは全射
 3. 単射かつ全射は全単射(bijection)
 
 ## 定義 0.2
 集合A,Bに対して
 
-fooA〜B : AからBへの全単射が存在するfoo　で〜を定義する(〜は同値関係)
+$$$A〜B : AからBへの全単射が存在する$$$　で〜を定義する(〜は同値関係)
 
 すなわち、
 
@@ -20,11 +20,11 @@ fooA〜B : AからBへの全単射が存在するfoo　で〜を定義する(〜
 
 一般にAの同値関係〜に寄る同値種とは、
 
-foo[A]_〜foo = B〜AなるBの集まり のこと
+$$$[A]_〜$$$ = B〜AなるBの集まり のこと
 
 ## 定義 0.3
 
-集合Aに対して　定義02で定めた同値関係〜に対する同値種foo[A]_〜fooを
+集合Aに対して　定義02で定めた同値関係〜に対する同値種$$$[A]_〜$$$を
 
 |A|と表し、 Aの濃度(cordinality)と呼ぶ。
 
@@ -56,20 +56,19 @@ CからDへの単射が存在する必要がある。
 
 ### well-defined 補足
 
-foo\frac{b}{a} \oplus \frac{d}{c} = \frac{b+d}{a+c}foo
+$$$\frac{b}{a} \oplus \frac{d}{c} = \frac{b+d}{a+c}$$$
 
 はwell-definedではない
 
-$$$
-\frac{1}{2} \oplus \frac{1}{3} = \frac{2}{5}
-\frac{2}{4} \oplus \frac{1}{3} = \frac{3}{7}
-$$$
+$$$\frac{1}{2} \oplus \frac{1}{3} = \frac{2}{5}$$$
+
+$$$\frac{2}{4} \oplus \frac{1}{3} = \frac{3}{7}$$$
 
 ## 定理 0.1
 
-1. foo|A| \leq |B| かつ |B| \leq |C| \Rightarrow |A| \leq |C|foo
+1. $$$|A| \leq |B| かつ |B| \leq |C| \Rightarrow |A| \leq |C|$$$
 
-2. foo|A| \leq |B| かつ |B| \leq |A| \Rightarrow |A| = |C|foo
+2. $$$|A| \leq |B| かつ |B| \leq |A| \Rightarrow |A| = |C|$$$
 
 ### 証明
 
@@ -91,45 +90,45 @@ g: B -> A
 
 ## 定義 0.5
 
-foo|A| \leq |B| かつ |A| \neq |B|の時、|A| < |B|fooと記す
+$$$|A| \leq |B| かつ |A| \neq |B|の時、|A| < |B|$$$と記す
 
 ## 定理 0.3
 
-foo|\boldsymbol{Q}| = |\boldsymbol{Z}| = |\boldsymbol{N}|foo
+$$$|\boldsymbol{Q}| = |\boldsymbol{Z}| = |\boldsymbol{N}|$$$
 
 「番号付けができる」
 
 ## 定義 0.6
 
-foo|A| = |\boldsymbol{N}|foo なる集合Aを加算集合と呼ぶ
+$$$|A| = |\boldsymbol{N}|$$$ なる集合Aを加算集合と呼ぶ
 有限集合を含め、高々加算集合と呼ぶ
 
 ## 定理 0.4
 
-foo|\boldsymbol{R}| > |\boldsymbol{N}|foo
+$$$|\boldsymbol{R}| > |\boldsymbol{N}|$$$
 
 ### 証明
 
-foo|\boldsymbol{R}| \leq |\boldsymbol{N}|fooは明らか
+$$$|\boldsymbol{R}| \leq |\boldsymbol{N}|$$$は明らか
 
-foo(一般にA<Bなら|A| \leq |B|)foo
+(一般にA<Bなら|A| <= |B|)
 
-foo(0,1)〜|\boldsymbol{N}|fooでないことを示す
+$$$(0,1)〜|\boldsymbol{N}|$$$でないことを示す
 
 背理法より
 
-foo(0, 1) = \{a_n | n \in \boldsymbol{N}\}fooとする
+$$$(0, 1) = \{a_n | n \in \boldsymbol{N}\}$$$とする
 
 a_nの小数点表示を
 
-fooa_n = 0.a_1^na_2^n...とおくfoo
+$$$a_n = 0.a_1^na_2^n...とおく$$$
 
-foob_n^n \in \{1,2,3,..,8\}foo
+$$$b_n^n \in \{1,2,3,..,8\}$$$
 
-foob_n \neq a_n^nとなるようにおくfoo
+$$$b_n \neq a_n^nとなるようにおく$$$
 
-foob = 0.b_1b_1...とおくfoo
+$$$b = 0.b_1b_1...とおく$$$
 
-foob \in (0, 1)foo
+$$$b \in (0, 1)$$$
 
-しかしfoob \neq a_nfoo
+しかし$$$b \neq a_n$$$
