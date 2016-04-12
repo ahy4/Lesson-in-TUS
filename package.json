@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "gulp build && git add -A && git commit -m \"update and publish\" && git push",
+    "build": "gulp build",
     "start": "npm run publish"
   },
   "repository": {
