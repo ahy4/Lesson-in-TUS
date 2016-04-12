@@ -1,20 +1,21 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-![equation](http://www.sciweavers.org/tex2img.php?eq=1%2Bsin%28mc%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=)
-githubのtexテスト
+# 理科大講義のノート
 
+## 概要
 
+俺用の講義ノートです。
 
-$
-a = b
-$
+マークダウン×LaTeXで書いてあり、ツールはMou(Mathjax)を使っています。
 
-$$
-a = b
-$$
+## ノートを見るとき
 
-$$$
-a = b
-$$$
-```math
-a = b
-```
+githubの、/github/ディレクトリを見てください。
+
+https://github.com/ahyahya/Lesson-in-TUS/tree/master/publish
+
+## ノートを書くとき
+
+local-editディレクトリに適当にフォルダやmdファイルを設置し、
+
+Mouを用いてエディットしてください。
+
+プッシュするときは、npm startを発火してください。
