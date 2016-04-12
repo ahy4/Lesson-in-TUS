@@ -24,12 +24,12 @@
   
 ## 変数が属する空間  
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B300%7D%20%5Chuge%20%5C%5Cboldsymbol%7Bx%7D%20%3D%20%28x_1%2C%20x_2%2C%20...%2C%20x_n%29" style="zoom:0.18;">  
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5C%5Cboldsymbol%7Bx%7D%20%3D%20%28x_1%2C%20x_2%2C%20...%2C%20x_n%29">  
 
 - 有限次元空間 finite dimensioned space  
 - 無限次元空間 infinite dimensioned space  
-  - ex. 数列空間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B300%7D%20%5Chuge%20%5Cboldsymbol%7Bx%7D%20%3D%20%28x_1%2C%20x_2%2C%20...%2C%20%20%20x_n%2C%20...%29%20%3D%20%28x_n%29_%7Bn%5Cin%7B%5C%5Cboldsymbol%7BN%7D%7D%7D" style="zoom:0.18;">  
-  - ex. 関数空間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B300%7D%20%5Chuge%20%20%5Cboldsymbol%7Bx%7D%20%3D%20f%2C%20g%2C%20h%2C%20...%20%20" style="zoom:0.18;">
+  - ex. 数列空間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cboldsymbol%7Bx%7D%20%3D%20%28x_1%2C%20x_2%2C%20...%2C%20%20%20x_n%2C%20...%29%20%3D%20%28x_n%29_%7Bn%5Cin%7B%5C%5Cboldsymbol%7BN%7D%7D%7D">  
+  - ex. 関数空間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%20%5Cboldsymbol%7Bx%7D%20%3D%20f%2C%20g%2C%20h%2C%20...%20%20">
 - 変分問題  
 - 最適制御問題  
   - 以後専ら有限次元に限る  

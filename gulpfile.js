@@ -34,7 +34,7 @@ function replaceToImage(text) {
     var query = escape(tex);
     return {
       original: incompleteTex.match(/\${3}(.*)\${3}/)[0],
-      imageMd: '<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B300%7D%20%5Chuge%20'+query+'" style="zoom:0.18;">',
+      imageMd: '<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20'+query+'">',
     };
   });
   texs.forEach(function (o) {
