@@ -24,7 +24,7 @@
 
 ## 変数が属する空間
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cboldsymbol%7Bx%7D%20%3D%20%28x_1%2C%20x_2%2C%20...%2C%20x_n%29">  
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cboldsymbol%7Bx%7D%20%3D%20%28x_1%2C%20x_2%2C%20...%2C%20x_n%29">
 
 - 有限次元空間 finite dimensioned space
 - 無限次元空間 infinite dimensioned space

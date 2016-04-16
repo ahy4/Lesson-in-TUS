@@ -66,9 +66,9 @@ CからDへの単射が存在する必要がある。
 
 ## 定理 0.1
 
-1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CA%7C%20%5Cleq%20%7CB%7C%20%u304B%u3064%20%7CB%7C%20%5Cleq%20%7CC%7C%20%5CRightarrow%20%7CA%7C%20%5Cleq%20%7CC%7C">
+1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CA%7C%20%5Cleq%20%7CB%7C"> かつ <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CB%7C%20%5Cleq%20%7CC%7C%20%5CRightarrow%20%7CA%7C%20%5Cleq%20%7CC%7C">
 
-2. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CA%7C%20%5Cleq%20%7CB%7C%20%u304B%u3064%20%7CB%7C%20%5Cleq%20%7CA%7C%20%5CRightarrow%20%7CA%7C%20%3D%20%7CC%7C">
+2. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CA%7C%20%5Cleq%20%7CB%7C"> かつ <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CB%7C%20%5Cleq%20%7CA%7C%20%5CRightarrow%20%7CA%7C%20%3D%20%7CC%7C">
 
 ### 証明
 
@@ -90,7 +90,7 @@ g: B -> A
 
 ## 定義 0.5
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CA%7C%20%5Cleq%20%7CB%7C%20%u304B%u3064%20%7CA%7C%20%5Cneq%20%7CB%7C%u306E%u6642%u3001%7CA%7C%20%3C%20%7CB%7C">と記す
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CA%7C%20%5Cleq%20%7CB%7C"> かつ <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CA%7C%20%5Cneq%20%7CB%7C"> の時、<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CA%7C%20%3C%20%7CB%7C"> と記す
 
 ## 定理 0.3
 
@@ -109,15 +109,15 @@ g: B -> A
 
 ### 証明
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7C%5Cboldsymbol%7BR%7D%7C%20%5Cleq%20%7C%5Cboldsymbol%7BN%7D%7C">は明らか
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7C%5Cboldsymbol%7BR%7D%7C%20%5Cleq%20%7C%5Cboldsymbol%7BN%7D%7C"> は明らか
 
 (一般にA<Bなら|A| <= |B|)
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%280%2C1%29%u301C%7C%5Cboldsymbol%7BN%7D%7C">でないことを示す
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%280%2C1%29"> 〜 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7C%5Cboldsymbol%7BN%7D%7C"> でないことを示す
 
 背理法より
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%280%2C%201%29%20%3D%20%5C%7Ba_n%20%7C%20n%20%5Cin%20%5Cboldsymbol%7BN%7D%5C%7D">とする
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%280%2C%201%29%20%3D%20%5C%7Ba_n%20%7C%20n%20%5Cin%20%5Cboldsymbol%7BN%7D%5C%7D"> とする
 
 a_nの小数点表示を
 

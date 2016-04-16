@@ -32,7 +32,7 @@ p.2
 
 ### 3 Example 1.1 (収束列は有界である)
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cepsilon%20%3D%201%24%24%24%u306B%u5BFE%u3057%u3066%u3001%24%24%24N_1%20%5Cin%20%5Cboldsymbol%7BN%7D">が存在して
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cepsilon%20%3D%201">に対して、<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20N_1%20%5Cin%20%5Cboldsymbol%7BN%7D">が存在して
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20N_1%20%3C%20n%20%5CRightarrow">
 

@@ -24,12 +24,12 @@
 
 ## 変数が属する空間
 
-$$$\boldsymbol{x} = (x_1, x_2, ..., x_n)$$$  
+$\boldsymbol{x} = (x_1, x_2, ..., x_n)$
 
 - 有限次元空間 finite dimensioned space
 - 無限次元空間 infinite dimensioned space
-  - ex. 数列空間 $$$\boldsymbol{x} = (x_1, x_2, ...,   x_n, ...) = (x_n)_{n\in{\boldsymbol{N}}}$$$
-  - ex. 関数空間 $$$ \boldsymbol{x} = f, g, h, ...  $$$
+  - ex. 数列空間 $\boldsymbol{x} = (x_1, x_2, ...,   x_n, ...) = (x_n)_{n\in{\boldsymbol{N}}}$
+  - ex. 関数空間 $ \boldsymbol{x} = f, g, h, ...  $
 - 変分問題
 - 最適制御問題
   - 以後専ら有限次元に限る

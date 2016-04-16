@@ -15,19 +15,19 @@ X, Yを集合とし、
 
 f: X->Yとするとき、
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20A%20%5Csubseteq%20X%24%24%24%20%u306B%u5BFE%u3057%u3001%24%24%24f%28A%29%20%3D%20%5C%7Bf%28x%29%7Cx%20%5Cin%20A%7D">
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20A%20%5Csubseteq%20X"> に対し、<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28A%29%20%3D%20%5C%7Bf%28x%29%7Cx%20%5Cin%20A%7D">
 
 と定義し、
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20B%20%5Csubseteq%20Y%24%24%24%20%u306B%u5BFE%u3057%u3001%24%24%24f%5E%7B-1%7D%28A%29%20%3D%20%5C%7Bx%7Cf%28x%29%20%5Cin%20Y%2C%20f%28Y%29%20%5Cin%20B%7D">
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20B%20%5Csubseteq%20Y"> に対し、<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%5E%7B-1%7D%28A%29%20%3D%20%5C%7Bx%7Cf%28x%29%20%5Cin%20Y%2C%20f%28Y%29%20%5Cin%20B%7D">
 
 と定義する
 
 Xを集合とする
 
-Xにおける数列<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28a_1%2C%20...%29%24%24%24%u3092%24%24%24%28a_n%29_%7Bn%5Cin%7BN%7D%7D">のように表す
+Xにおける数列<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28a_1%2C%20...%29">を<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28a_n%29_%7Bn%5Cin%7BN%7D%7D">のように表す
 
-一般に、<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5CLambda%24%24%24%u3092%u96C6%u5408%u3068%u3057%u3001%u5404%24%24%24%5Clambda%20%5Cin%20%5CLambda">に対して
+一般に、<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5CLambda">を集合とし、各<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Clambda%20%5Cin%20%5CLambda">に対して
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20a_%5Clambda%20%5Cin%20X">　が与えられてるとするとき
 
@@ -47,7 +47,7 @@ Xにおける数列<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7
 
 Λ={1, ..., n}のとき、
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cprod_%7B%5Clambda%5Cin%5CLambda%7D%24%24%24%u3092%24%24%24%5CLambda_1%5Ctimes...%5Ctimes%5CLambda%5C_n">とも書く
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cprod_%7B%5Clambda%5Cin%5CLambda%7D">を<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5CLambda_1%5Ctimes...%5Ctimes%5CLambda%5C_n">とも書く
 
 Xを集合、d: X*X->Rとし、次の３条件を満足するとする
 
@@ -68,7 +68,7 @@ Xは距離空間である
 
 などという
 
-d'(x, y) -= d|(X'*X')
+d'(x, y) = d|(X'*X')
 
 今後、距離空間(X, d)に対し、Xの部分集合X'を距離空間とみなすときは
 
@@ -81,4 +81,5 @@ f(a)=g(a)(a in A)により定めるとき、fをgへの制限といい、
 f = g | A と表す
 
 
-眠くなった
+
+

@@ -29,11 +29,12 @@ function writeMd(fp) {
 }
 
 function replaceToImage(text) {
-  var texs = (text.match(/\${3}(.*)\${3}/g)||[]).map(function (incompleteTex) {
-    var tex = incompleteTex.match(/\${3}(.*)\${3}/)[1];
+  var texs = (text.match(/\$([^$]*)\$/g)||[]).map(function (incompleteTex) {
+    console.log(incompleteTex);
+    var tex = incompleteTex.match(/\$([^$]*)\$/)[1];
     var query = escape(tex);
     return {
-      original: incompleteTex.match(/\${3}(.*)\${3}/)[0],
+      original: incompleteTex.match(/\$([^$]*)\$/)[0],
       imageMd: '<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20'+query+'">',
     };
   });
