@@ -8,7 +8,7 @@
 
 ## ノートを見るとき
 
-githubの、/github/ディレクトリを見てください。
+githubの、publish ディレクトリを見てください。
 
 https://github.com/ahyahya/Lesson-in-TUS/tree/master/publish
 
