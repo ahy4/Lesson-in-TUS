@@ -90,7 +90,7 @@ Sを集合全体の集まりとして、それが集合だとすると
 
 矛盾
 
-### ラッセルのパラドックス
+## ラッセルのパラドックス
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5C%7Bx%7Cx%5C%20is%5C%20Set%2C%20x%20%5Cnot%5Cin%20x%5C%7D%20%3D%20A">
 
@@ -116,7 +116,7 @@ xとしてAを代入すると、
 
 公理から、論理的推論によって定理を導く
 
-### 問題1
+## 問題1
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7C%5CBbb%20R%7C%20%3E%20%7CA%7C%20%3E%20%7C%5CBbb%20N%7C">
 
@@ -135,3 +135,57 @@ xとしてAを代入すると、
 1961、コーエンが逆も成り立つことを示した
 
 “我々が普段使っている数学でCHが成り立つことも証明できない”
+
+
+## 問題2
+
+濃度上の順序は全順序か？
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CA%7C%20%5Cgeq%20%7CB%7C%5C%20and%5C%20%7CB%7C%20%5Cgeq%20%7CC%7C%20%5CRightarrow%20%7CA%7C%20%5Cgeq%20%7CC%7C">
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CA%7C%20%5Cgeq%20%7CB%7C%5C%20and%5C%20%7CB%7C%20%5Cgeq%20%7CA%7C%20%5CRightarrow%20%7CA%7C%20%3D%20%7CB%7C">
+
+これらは順序
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CA%7C%5Cneq%7CB%7C"> なものを全順序と呼ぶ
+
+
+この解答は**YES**
+
+次の公理を使う必要がある
+
+## 定義0.8
+
+Aを集合を要素にもつ集合
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Ccup%20A%20%3D%20%5C%7Ba%7C%5Cexists%20b%20%5Cin%20A%2C%20a%20%5Cleq%20B%5C%7D">
+
+例：
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20A%20%3D%20%5C%7B%5C%7B1%2C2%5C%7D%2C%20%5C%7B1%2C3%5C%7D%5C%7D">
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Ccup%20A%20%3D%20%5C%7B1%2C2%2C3%5C%7D">
+
+
+## 選択公理 axiom of choice
+
+公理的集合論における公理のひとつで、どれも空でないような集合を元とする集合（すなわち、集合の集合）があったときに、それぞれの集合から一つずつ元を選び出して新しい集合を作ることができるというもの
+
+眠い
+
+## 定義0.8(順序、全順序)
+
+一般に集合S上の２項関係>=が順序であるとは、
+
+1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cforall%20a%2C%20b%2C%20c%20%5Cin%20S%2C%20a%5Cgeq%20b%2C%20%5Cgeq%20b%20%5Cgeq%20c%20%5CRightarrow%20a%5Cgeq%20c">
+
+2. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cforall%20a%20%5Cin%20S%2C%20a%5Cgeq%20a">
+
+のことで、さらに
+
+3. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cforall%20a%2C%20b%20%5Cin%20S">でa>=bかb>=aが成り立つ
+
+が成り立つとき、全順序という。
+
+
+全順序になることは選択公理が必要
