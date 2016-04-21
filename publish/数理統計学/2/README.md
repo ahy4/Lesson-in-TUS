@@ -49,7 +49,7 @@
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5COmega">を空でない集合として、その部分集合のある族<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20F">が
 
-1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5COmega%20%5Cin%20F">
+1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5COmega%20%5Cin%20%5Cmathcal%20F">
 
 2. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20A%20%5Cin%20F%20%5CRightarrow%20A%5Ec%20%5Cin%20F">
 

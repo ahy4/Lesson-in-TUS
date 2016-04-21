@@ -49,7 +49,7 @@
 
 $\Omega$を空でない集合として、その部分集合のある族$F$が
 
-1. $\Omega \in F$
+1. $\Omega \in \mathcal F$
 
 2. $A \in F \Rightarrow A^c \in F$
 
