@@ -3,14 +3,27 @@ var gulp = require('gulp');
 var fs = require('fs-extra');
 var path = require('path');
 var Promise = require('bluebird');
+var filecopy = require('filecopy');
 
 gulp.task("build", function () {
   walk('./local-edit', function (fp) {
     if (fp.match(/(.*)(?:\.([^.]+$))/)[2] === "md") {
       writeMd(fp);
+    } else {
+      copyFile(fp);
     }
   });
 });
+
+function copyFile(fp) {
+  var readPath = fp;
+  var writePath = fp.replace('local-edit', 'publish');
+  filecopy(readPath, writePath, {
+      mkdirp: true
+  }, function(err){
+      /*...*/
+  });
+}
 
 function writeMd(fp) {
   var readPath = fp;
