@@ -4,7 +4,9 @@
 
 俺用の講義ノートです。
 
-マークダウン×LaTeXで書いてあり、ツールはMou(Mathjax)を使っています。
+マークダウン×LaTeXで書いてあり、エディタはATOMにmathjaxの環境を入れて使っています。
+
+macdownにも対応してると思います。多分。
 
 ## ノートを見るとき
 
@@ -16,6 +18,6 @@ https://github.com/ahyahya/Lesson-in-TUS/tree/master/publish
 
 local-editディレクトリに適当にフォルダやmdファイルを設置し、
 
-Mouを用いてエディットしてください。
+macdownを用いてエディットしてください。
 
 プッシュするときは、npm startを発火してください。
