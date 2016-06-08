@@ -98,13 +98,13 @@ fが <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cxi%20%5
 * 完備性
 
 先生が指定した場所：
-1.
-  - p18 例題2.1 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28l%5Ep%2C%20d_p%29">
-  - <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20D_1%2C%20D_2%2C%20D_3">が証明できるか？ <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28l%5E%u221E%2C%20d_%u221E%29">
-  (ヘルダー, Minkowskey は結果を使って良い)
-2. Th 2.4 (p24~)
+1. p18 [例題2.1]
+    - <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28l%5Ep%2C%20d_p%29">
+    - <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20D_1%2C%20D_2%2C%20D_3">が証明できるか？ <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28l%5E%u221E%2C%20d_%u221E%29">
+    (ヘルダー, Minkowskey は結果を使って良い)
+2. [定理 2.1] (p24~)
   <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cmathbb%20R%2C%20%5CBbb%20R%5EN">の完備性
-2. 例題2.3 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20l%5Ep"> の完備性 (p26~)
+3. [例題2.3] <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20l%5Ep"> の完備性 (p26~)
 
-4. 例題 2.4 (p27~) (a)のみ
-  <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28C%5Ba%2Cb%5D%2Cd_p%29">: metric space
+4. [例題 2.4] (p27~) (a)のみ
+  <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28C%5Ba%2Cb%5D%2Cd_p%29">: metric space の証明
