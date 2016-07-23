@@ -81,6 +81,8 @@ http://bit.ly/2a0N2ky
 1. スツルム列の <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20X%20%3D%20-3%2C%200%2C%201%2C%202"> における符号の変化数を計算せよ
 1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29"> の実数根の整数部を全て求めよ
 
+----
+
 ##### 1.
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_0%28X%29%20%3A%3D%20f%28X%29%20%3D%20X%5E3%20-%204X%20+%201">
