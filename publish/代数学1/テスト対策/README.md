@@ -34,7 +34,7 @@
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29%20%3D%20X%5E5%20+%202X%5E4%20-%202X%5E3%20-%204X%5E2%20+%20X%20+%202">
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%3D%20%28X+2%29%28X%5E2-1%29%5E2"> より
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%3D%20%28X+2%29%5C%7B%28X-1%29%28X+1%29%5C%7D%5E2"> より
 
 ##### 1.
 
@@ -42,7 +42,7 @@
 
 ##### 2.
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29%20%3D%20%28X+2%29%5C%7B%28X-1%29%28X+1%29%5C%7D%5E2">
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29%20%3D%20%28X+2%29%28X%5E2-1%29%5E2">
 
 ----
 
