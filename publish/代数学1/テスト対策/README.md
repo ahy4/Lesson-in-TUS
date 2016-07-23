@@ -89,7 +89,7 @@ http://bit.ly/2a0N2ky
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_2%28X%29%20%3A%3D%20-%28f_0%28X%29%20%5C%25%20f_1%28X%29%29%20%3D%20%5Cfrac%7B8%7D%7B3%7DX%20-%201">
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_3%28X%29%20%3A%3D%20-%28f_1%28X%29%20%5C%25%20f_2%28X%29%29%20%3D%20-%5Cfrac%7B283%7D%7B64%7D">
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_3%28X%29%20%3A%3D%20-%28f_1%28X%29%20%5C%25%20f_2%28X%29%29%20%3D%20%5Cfrac%7B229%7D%7B64%7D">
 
 とした時の多項式列 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_0%28X%29%2C%20f_1%28X%29%2C%20f_2%28X%29%2C%20f_3%28X%29.">
 
@@ -97,33 +97,41 @@ http://bit.ly/2a0N2ky
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20X%3D-3"> のとき
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_0%28-3%29%3A%20-%2C%7E%7E%20f_1%28-3%29%3A%20+%2C%7E%7E%20f_2%28-3%29%3A%20-%2C%7E%7E%20f_3%28-3%29%3A%20-">
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_0%28-3%29%3A%20-%2C%7E%7E%20f_1%28-3%29%3A%20+%2C%7E%7E%20f_2%28-3%29%3A%20-%2C%7E%7E%20f_3%28-3%29%3A%20+">
 
-より、符号変化数 **<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20V%28-3%29%20%3D%202">**
+より、符号変化数 **<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20V%28-3%29%20%3D%203">**
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20X%3D0"> のとき
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_0%280%29%3A%20+%2C%7E%7E%20f_1%280%29%3A%20-%2C%7E%7E%20f_2%280%29%3A%20-%2C%7E%7E%20f_3%280%29%3A%20-">
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_0%280%29%3A%20+%2C%7E%7E%20f_1%280%29%3A%20-%2C%7E%7E%20f_2%280%29%3A%20-%2C%7E%7E%20f_3%280%29%3A%20+">
 
-より、符号変化数 **<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20V%280%29%20%3D%201">**
+より、符号変化数 **<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20V%280%29%20%3D%202">**
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20X%3D1"> のとき
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_0%281%29%3A%20-%2C%7E%7E%20f_1%281%29%3A%20-%2C%7E%7E%20f_2%281%29%3A%20+%2C%7E%7E%20f_3%281%29%3A%20-">
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_0%281%29%3A%20-%2C%7E%7E%20f_1%281%29%3A%20-%2C%7E%7E%20f_2%281%29%3A%20+%2C%7E%7E%20f_3%281%29%3A%20+">
 
-より、符号変化数 **<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20V%281%29%20%3D%202">**
+より、符号変化数 **<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20V%281%29%20%3D%201">**
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20X%3D2"> のとき
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_0%282%29%3A%20+%2C%7E%7E%20f_1%282%29%3A%20+%2C%7E%7E%20f_2%282%29%3A%20+%2C%7E%7E%20f_3%282%29%3A%20-">
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f_0%282%29%3A%20+%2C%7E%7E%20f_1%282%29%3A%20+%2C%7E%7E%20f_2%282%29%3A%20+%2C%7E%7E%20f_3%282%29%3A%20+">
 
-より、符号変化数 **<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20V%282%29%20%3D%201">**
+より、符号変化数 **<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20V%282%29%20%3D%200">**
 
 ##### 3.
 
 スツルムの定理より、
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29%20%3D%200"> は区間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28-3%2C0%5D%2C%280%2C1%5D%2C%281%2C2%5D"> に実数解を１つずつのみ持つ。
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29%20%3D%200"> は
+
+区間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28-3%2C0%5D"> に <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20V%28-3%29%20-%20V%280%29%20%3D%201"> 個
+
+区間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%280%2C1%5D"> に <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20V%280%29%20-%20V%281%29%20%3D%201"> 個
+
+区間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%281%2C2%5D"> に <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20V%281%29%20-%20V%282%29%20%3D%201"> 個
+
+の実数解を１つずつのみ持つ。
 
 また、 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28-2%29"> は正なので <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28-3%29f%28-2%29%3C0"> であるから、区間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%283%2C2%29"> に実数解を１つのみ持つ。
 
