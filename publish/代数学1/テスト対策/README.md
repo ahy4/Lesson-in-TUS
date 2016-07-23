@@ -136,7 +136,7 @@ http://bit.ly/2a0N2ky
 
 区間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%281%2C2%5D"> に <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20V%281%29%20-%20V%282%29%20%3D%201"> 個
 
-の実数解を１つずつのみ持つ。
+の実数解を持つ。
 
 また、 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28-2%29"> は正なので <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28-3%29f%28-2%29%3C0"> であるから、区間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%283%2C2%29"> に実数解を１つのみ持つ。
 
