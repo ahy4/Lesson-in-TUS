@@ -27,8 +27,8 @@
 
 ### 例
 
-> <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29%20%3D%20X%5E5%20+%202X%5E4%20-%202X%5E3%20-%204X%5E2%20+%20X%20+%202"> に対して
-> 1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29"> の無平方部を計算せよ
+> <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29%20%3D%20X%5E5%20+%202X%5E4%20-%202X%5E3%20-%204X%5E2%20+%20X%20+%202"> に対して<br>
+> 1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29"> の無平方部を計算せよ<br>
 > 2. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29"> の無平方分解を計算せよ
 
 
@@ -78,10 +78,10 @@ http://bit.ly/2a0N2ky
 
 ### 例
 
-> <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29%20%3D%20X%5E3%20-%204X%20+%201"> に対して
-> 1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29"> のスツルム列を作成せよ
-> 1. スツルム列の <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20X%20%3D%20-3%2C%200%2C%201%2C%202"> における符号の変化数を計算せよ
-> 1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29"> の実数根の整数部を全て求めよ
+> <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29%20%3D%20X%5E3%20-%204X%20+%201"> に対して<br>
+> 1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29"> のスツルム列を作成せよ<br>
+> 2. スツルム列の <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20X%20%3D%20-3%2C%200%2C%201%2C%202"> における符号の変化数を計算せよ<br>
+> 3. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28X%29"> の実数根の整数部を全て求めよ
 
 
 ##### 1.
@@ -95,6 +95,8 @@ http://bit.ly/2a0N2ky
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f_3%28X%29%20%3A%3D%20-%28f_1%28X%29%20%5C%25%20f_2%28X%29%29%20%3D%20%5Cfrac%7B229%7D%7B64%7D">
 
 とした時の多項式列 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f_0%28X%29%2C%20f_1%28X%29%2C%20f_2%28X%29%2C%20f_3%28X%29.">
+
+(ここにおける%は多項式の割り算の余りを表す演算子とする)
 
 ##### 2.
 
@@ -150,8 +152,8 @@ http://bit.ly/1KoEzOD
 
 ### 例
 
-> 不定方程式
-> <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%201004x+1001y%3D1">
+> 不定方程式<br>
+> <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%201004x+1001y%3D1"><br>
 > を解け。
 
 1004と1001に対してユークリッドの互除法を行う。
@@ -190,7 +192,7 @@ http://bit.ly/1KoEzOD
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%201004%20%28-%20x%20+%20334%29%20%3D%201001%20%28y%20+%20335%29%20%3D%201004%20%5Ccdot%201001%20%5Ccdot%20k">
 
-と書けるので <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%28k%20%5Cin%20%5CBbb%20N%29">
+と書けるので <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%28k%20%5Cin%20%5CBbb%20Z%29">
 
 * <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20-%20x%20+%20334%20%3D%201001%20%5Ccdot%20k%7E%7E%28%5CLeftrightarrow%20x%20%3D%20-1001%20%5Ccdot%20k%20+%20334%29">
 
