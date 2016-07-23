@@ -22,12 +22,10 @@
 
 ### 例
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29%20%3D%20X%5E5%20+%202X%5E4%20-%202X%5E3%20-%204X%5E2%20+%20X%20+%202"> に対して
+> <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29%20%3D%20X%5E5%20+%202X%5E4%20-%202X%5E3%20-%204X%5E2%20+%20X%20+%202"> に対して
+> 1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29"> の無平方部を計算せよ
+> 2. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29"> の無平方分解を計算せよ
 
-1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29"> の無平方部を計算せよ
-2. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29"> の無平方分解を計算せよ
-
-----
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29%20%3D%20X%5E5%20+%202X%5E4%20-%202X%5E3%20-%204X%5E2%20+%20X%20+%202">
 
@@ -75,13 +73,11 @@ http://bit.ly/2a0N2ky
 
 ### 例
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29%20%3D%20X%5E3%20-%204X%20+%201"> に対して
+> <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29%20%3D%20X%5E3%20-%204X%20+%201"> に対して
+> 1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29"> のスツルム列を作成せよ
+> 1. スツルム列の <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20X%20%3D%20-3%2C%200%2C%201%2C%202"> における符号の変化数を計算せよ
+> 1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29"> の実数根の整数部を全て求めよ
 
-1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29"> のスツルム列を作成せよ
-1. スツルム列の <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20X%20%3D%20-3%2C%200%2C%201%2C%202"> における符号の変化数を計算せよ
-1. <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28X%29"> の実数根の整数部を全て求めよ
-
-----
 
 ##### 1.
 
@@ -138,3 +134,64 @@ http://bit.ly/2a0N2ky
 また、 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28-2%29"> は正なので <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%28-3%29f%28-2%29%3C0"> であるから、区間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%283%2C2%29"> に実数解を１つのみ持つ。
 
 よって、実数解の整数部は <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20-2%2C%200%2C%201.">
+
+----
+
+## 拡張互除法
+
+http://bit.ly/1KoEzOD
+
+を参照
+
+### 例
+
+> 不定方程式
+> <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%201000x+1001y%3D1">
+> を解け。
+
+1004と1001に対してユークリッドの互除法を行う。
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%201004%20%3D%201001%20%5Ccdot%201%20+%203%2C">
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%201001%20%3D%203%20%5Ccdot%20333%20+%202%2C">
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%203%20%3D%202%20%5Ccdot%201%20+%201%2C">
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%202%20%3D%201%20%5Ccdot%202%20+%200"> より
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%201%20%3D%203%20-%201%20%5Ccdot%202%20%3D%203%20-%201%20%5Ccdot%20%281001%20-%20333%20%5Ccdot%203%29%20%3D%20-1001%20-%20334%20%5Ccdot%203">
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%3D%20-%201001%20+%20334%20%5Ccdot%20%281004%20-%201001%20%5Ccdot%201%29%20%3D%201004%20%5Ccdot%20334%20-%201001%20%5Ccdot%202">
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%3D%201004%20%5Ccdot%20334%20+%201001%20%5Ccdot%20%28-335%29">
+
+よって
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%201004%20%5Ccdot%20334%20+%201001%20%5Ccdot%20%28-335%29%20%3D%201">
+
+また、
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%201004%20%5Ccdot%20x%20+%201001%20%5Ccdot%20y%20%3D%201">
+
+で辺々引くと
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%201004%20%28x%20-%20344%29%20+%201001%20%28y%20+%20335%29%20%3D%200">
+
+より
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%201004%20%28-%20x%20+%20334%29%20%3D%201001%20%28y%20+%20335%29">
+
+1004 と1001 は互いに素なので
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%201004%20%28-%20x%20+%20334%29%20%3D%201001%20%28y%20+%20335%29%20%3D%201004%20%5Ccdot%201001%20%5Ccdot%20k">
+
+と書けるので <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%28k%20%5Cin%20%5CBbb%20N%29">
+
+* <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20-%20x%20+%20334%20%3D%201001%20%5Ccdot%20k%7E%7E%28%5CLeftrightarrow%20x%20%3D%20-1001%20%5Ccdot%20k%20+%20334%29">
+
+* <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20y%20+%20335%20%3D%201004%20%5Ccdot%20k%7E%7E%28%5CLeftrightarrow%20y%20%3D%201004%20%5Ccdot%20k%20-%20335%29">
+
+が成り立つ。
+
+
+----
