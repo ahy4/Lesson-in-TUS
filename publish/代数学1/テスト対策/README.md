@@ -1,3 +1,5 @@
+※　適当なまとめだけど許してー　間違えを見つけたら教えてちょ
+
 ## 無平方分解
 
 多項式f(x)を既約因子に分解して
@@ -18,6 +20,10 @@
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28x%29"> が無平方 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5CLeftrightarrow%20gcd%28f%2C%20f%27%29%20%3D%201">
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cbecause%20gcd%28f%2C%20f%27%29%20%3D%20f_2f_3%5E2...f_m%5E%7Bm-1%7D">
+
+**無平方部**とは、分解後の <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28x%29%20%3D%20f_1%28x%29f_2%5E2%28x%29...f_m%5Em%28x%29"> における
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f_1%28x%29f_2%28x%29...f_m%28x%29"> のことである
 
 ### 例
 
