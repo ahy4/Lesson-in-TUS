@@ -33,7 +33,7 @@
 
 ##### 1.
 
-無平方部は <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20X+2">
+無平方部は <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%28X-1%29%28X+1%29%28X+2%29">
 
 ##### 2.
 
