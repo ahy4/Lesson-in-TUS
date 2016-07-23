@@ -6,8 +6,8 @@
 
 と書け、
 
-* <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20n_i%20%3E%201"> なる <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f_i%28x%29"> を **平方因子**
-* <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20n_i%20%3D%201"> なる <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f_i%28x%29"> を **無平方部** (?)
+* <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20n_i%20%3E%201"> なる <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f_i%5E%7Bn_i%7D%28x%29"> を **平方因子**
+* <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20n_i%20%3D%201"> なる <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f_i%5E%7Bn_i%7D%28x%29"> を **無平方部** (?)
 * 平方因子を持たない多項式を **無平方**
 
 という。
