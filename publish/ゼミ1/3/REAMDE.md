@@ -23,8 +23,8 @@ wはmの正当なパートナーという。
 
 wさんをmの「最善の正当なパートナー」という。
 
-mの最善のパートナーのことを <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20best%28m%29"> と書きます。
+mの最善のパートナーのことを <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20best%28m%29"> と書きます。
 
-ペアの集合 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5C%7B%28m%2C%20best%28m%29%29%20%7C%20m%20%5Cin%20M%5C%7D"> を <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20S%5E*"> とする。
+ペアの集合 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5C%7B%28m%2C%20best%28m%29%29%20%7C%20m%20%5Cin%20M%5C%7D"> を <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20S%5E*"> とする。
 
-### (1.8) 安定マッチング <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20S%5E*">において、女性は最悪の正当な男性とペアになっている
+### (1.8) 安定マッチング <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20S%5E*">において、女性は最悪の正当な男性とペアになっている

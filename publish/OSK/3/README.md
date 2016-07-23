@@ -105,7 +105,7 @@ console.log("hello world");
 - `console.log` っていうのは命令。命令を実行するときは、`console.log()`みたいに、「`命令()`」っていう書き方をする
 - `console.log`って命令は、javascriptが標準で用意してくれている。
 - "" でくくられた部分は文字列として扱われる。`"hello world"`は、「hello worldってう文字列」って意味
-- 数学的な <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20f%282%29"> のように、必要な情報をカッコの中に入れてあげる。「〜を表示する」って命令は、「〜を」の部分も教えないと実行できないよね？だから`"hello world"`を渡す
+- 数学的な <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%282%29"> のように、必要な情報をカッコの中に入れてあげる。「〜を表示する」って命令は、「〜を」の部分も教えないと実行できないよね？だから`"hello world"`を渡す
 - 文の最後にはセミコロンを書く。日本語でいうと、「。」の部分
 
 ![](file:///Users/noko/Desktop/スクリーンショット 2016-04-25 23.39.50.png)
@@ -167,7 +167,7 @@ hello world
 
 例えば、判別式Dについて思い出してみよう。
 
-模試かなにかで何の断りもなく、「<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20D%20%3D%203%5E2%20-%204%5Ccdot%201%5Ccdot%205">」っていきなり書いたとする。
+模試かなにかで何の断りもなく、「<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20D%20%3D%203%5E2%20-%204%5Ccdot%201%5Ccdot%205">」っていきなり書いたとする。
 
 Dが何であるかは何のことかは正直わかる。
 
@@ -177,7 +177,7 @@ Dが何であるかは何のことかは正直わかる。
 
 Dっていうのは、自分で使うと決めた変数名のことだよーっていうことは読者に教えないといけない。
 
-だから本来は、「Dを <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20x%5E2%20-%203x%20+%205"> の判別式とすると、<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20D%20%3D%203%5E2%20-%204%5Ccdot%201%5Ccdot%205">」
+だから本来は、「Dを <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20x%5E2%20-%203x%20+%205"> の判別式とすると、<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20D%20%3D%203%5E2%20-%204%5Ccdot%201%5Ccdot%205">」
 
 って書くべきなんだよね。
 
@@ -284,9 +284,9 @@ console.log(a);
 
 演算子とは、「幾つかの情報を伝えたら１つの情報を返す計算記号」のこと。
 
-たとえば、数学的に <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20+"> は演算子で、「２つの数値を入力したら一つの数値を返す記号」。
+たとえば、数学的に <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20+"> は演算子で、「２つの数値を入力したら一つの数値を返す記号」。
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%201%20+%202"> は、1と2を渡して3を返す。
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%201%20+%202"> は、1と2を渡して3を返す。
 
 javascriptには、数値にはこんな演算子が用意されている。
 
@@ -312,7 +312,7 @@ javascriptには、数値にはこんな演算子が用意されている。
 
 「aって変数にa+1を**代入する**」って意味。
 
-数学的な <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%3D"> とは全然意味が違う
+数学的な <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%3D"> とは全然意味が違う
 
 代入はもちろん１回しか行われない
 
@@ -377,7 +377,7 @@ hello world 3
 実際に、内部的に使われている判定法はこんなものが多いと思う。多分。
 
 - 地雷となる選択肢を踏んでしまった場合、無条件にバッドエンドに移行
-- 各ヒロインの好感度を <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20a%3D0%2Cb%3D0%2Cc%3D0"> で定めておいて、ヒロインAにとって好感な選択肢を選んだらa+=2、好感度ダウンなものはa-=4 のように決めておく。
+- 各ヒロインの好感度を <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20a%3D0%2Cb%3D0%2Cc%3D0"> で定めておいて、ヒロインAにとって好感な選択肢を選んだらa+=2、好感度ダウンなものはa-=4 のように決めておく。
     - ある地点で好感度が10以上なひとがいればそのルートに移行
     - ダブってたらバッドエンド、用意してれば特殊ルートに移行
     - だれも10を超えていなければバッドエンド
@@ -407,7 +407,7 @@ if (a < 10) {
 }
 ```
 
-この場合、aは確かに10より小さい( <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20a%3C10"> )ので、「aは10より小さい」と表示される。
+この場合、aは確かに10より小さい( <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20a%3C10"> )ので、「aは10より小さい」と表示される。
 
 もし、a = 11とかで定義した場合は何も表示されない。
 
@@ -574,7 +574,7 @@ if (true) {
 
 - `"abc" == "abc"` (= `true` (右辺と左辺が等しいことを示すイコール))
 
-- `1 != 2` (= `true` ( <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cnot%3D"> のこと))
+- `1 != 2` (= `true` ( <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cnot%3D"> のこと))
 
 - `!true` (= `false` (!を使うとtrue/falseが反転))
 
@@ -606,7 +606,7 @@ trueと4の比較って何？？？ってなるよね。ほら、やめといた
 
 (実際にやってみると、-4 < -2 < -1はtrueになる・・・)
 
-もし、数学的な <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20-4%20%3C%20-2%20%3C%20-1"> をしたいのなら、こう書こうね：
+もし、数学的な <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20-4%20%3C%20-2%20%3C%20-1"> をしたいのなら、こう書こうね：
 
 ```javascript
 -4 < -2 && -2 < -1
@@ -756,7 +756,7 @@ for (var i = 1; i <= 100; i++) {
 
 ### 問４
 
-変数に <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20355%20/%20113"> という数値を代入してそれを表示しよう。変数名は`pi`とする
+変数に <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20355%20/%20113"> という数値を代入してそれを表示しよう。変数名は`pi`とする
 
 ### 問５
 

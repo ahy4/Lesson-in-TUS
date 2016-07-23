@@ -2,11 +2,11 @@
 
 n人p変量
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20X%20%3D%20%28%5CBbb%20x_1%2C%20%5CBbb%20x_2%2C%20...%2C%20%5CBbb%20x_n%29%2C%5C%20%5CBbb%20x_i%20%5Cin%20%5CBbb%20R%5Ep">
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20X%20%3D%20%28%5CBbb%20x_1%2C%20%5CBbb%20x_2%2C%20...%2C%20%5CBbb%20x_n%29%2C%5C%20%5CBbb%20x_i%20%5Cin%20%5CBbb%20R%5Ep">
 
 を下と同一同一視する
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%5Cmathbb%20x_%7B%5Crho%20%281%29%7D%2C%20...%2C%20%5Cmathbb%20x_%7B%5Crho%20%28n%29%7D%2C%5C%20%5Crho%20%5Cin%20S_n">
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cmathbb%20x_%7B%5Crho%20%281%29%7D%2C%20...%2C%20%5Cmathbb%20x_%7B%5Crho%20%28n%29%7D%2C%5C%20%5Crho%20%5Cin%20S_n">
 
 同一視してうしなわれる情報を対象にする解析
 

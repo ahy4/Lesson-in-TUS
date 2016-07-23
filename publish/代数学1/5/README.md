@@ -23,7 +23,7 @@ HをGの部分群という
 
 Hもその部分群と考えると
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20%7CH%7C%20%5Cbig%7C%20%7CG%7C">
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%7CH%7C%20%5Cbig%7C%20%7CG%7C">
 
 
 # 2章　線形空間　基底　商空間　準同型
@@ -36,7 +36,7 @@ Vは可換群をなし
 
 Kの任意の要素scとVに任意の要素vに対して
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20c%5Ccdot%20v%20%5Cin%20V"> になる演算・が定義され、以下が成り立つ
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20c%5Ccdot%20v%20%5Cin%20V"> になる演算・が定義され、以下が成り立つ
 
 （ベクトルのいつものやつ）
 

@@ -10,7 +10,7 @@ V: 点の集合
 
 E: 辺の集合
 
-Eは、<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20u%2C%20v%5Cin%20V"> を用いて
+Eは、<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20u%2C%20v%5Cin%20V"> を用いて
 
 e = {u, v} と表せる
 
@@ -27,7 +27,7 @@ e = {u, v} と表せる
 
 ・有向グラフG'は店の集合Vと有向辺(directed edge)の集合E'からなる。
 
-・各辺 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20e%27%5Cin%20E%27"> は順序対(ordered pair) (u, v)で表され、uとvは可換ではない
+・各辺 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20e%27%5Cin%20E%27"> は順序対(ordered pair) (u, v)で表され、uとvは可換ではない
 
 ・uをe'の始点(tail)、vをe'の終点(head)という　(矢印の頭がhead)
 
@@ -77,11 +77,11 @@ Aを取らないとBを履修できないとか食物連鎖とか
 
 無向グラフG = (V,E) において、
 
-<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20v_1%2C%20v_2%2C%20...%2C%20v_k">からなる点列Pに対して、
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20v_1%2C%20v_2%2C%20...%2C%20v_k">からなる点列Pに対して、
 
-各連続する点対 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20v_i%2C%20v_%7Bi+1%7D"> がGの辺で結ばれているとき、PをGのパスという。
+各連続する点対 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20v_i%2C%20v_%7Bi+1%7D"> がGの辺で結ばれているとき、PをGのパスという。
 
-Pは<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20v_1%20-%20v_k">パスや、v_1からv_kへのパスとも呼ばれるとも呼ばれる
+Pは<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20v_1%20-%20v_k">パスや、v_1からv_kへのパスとも呼ばれるとも呼ばれる
 
 すべての点が異なるときパスは単純(simple)という
 
@@ -91,9 +91,9 @@ Pは<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20v_1%20-%20v
 
 一周して最初に戻ってくるパスのこと
 
-k>2で <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20v_1%2C...%2Cv_k"> に対して、
+k>2で <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20v_1%2C...%2Cv_k"> に対して、
 
-最初のk-1個の点がすべて異なり、かつ <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B150%7D%20v_1%3Dv_k"> であるものを閉路(cycle)という。
+最初のk-1個の点がすべて異なり、かつ <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20v_1%3Dv_k"> であるものを閉路(cycle)という。
 
 有向グラフでも同様
 
