@@ -151,7 +151,7 @@ http://bit.ly/1KoEzOD
 ### 例
 
 > 不定方程式
-> <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%201000x+1001y%3D1">
+> <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%201004x+1001y%3D1">
 > を解け。
 
 1004と1001に対してユークリッドの互除法を行う。
