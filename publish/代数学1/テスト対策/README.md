@@ -138,7 +138,15 @@ http://bit.ly/2a0N2ky
 
 の実数解を持つ。
 
-また、 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28-2%29"> は正なので <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28-3%29f%28-2%29%3C0"> であるから、区間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%283%2C2%29"> に実数解を１つのみ持つ。
+また、 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28-2%29"> は正なので <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f%28-3%29f%28-2%29%3C0"> であるから、区間 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%28-3%2C-2%29"> に実数解を１つのみ持つ。
+
+つまり、 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%28-3%2C-2%29"> にある解の整数部分は-2である。
+
+同様に、
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%280%2C1%5D"> の解の整数部分は <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%200"> (X=1は代入によって解として不適だとわかる)
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%281%2C2%5D"> の解の整数部分は <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%201"> (X=2は代入によって解として不適だとわかる)
 
 よって、実数解の整数部は <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20-2%2C%200%2C%201.">
 
