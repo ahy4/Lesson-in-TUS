@@ -29,4 +29,16 @@ Kの要素C_nに対して
 
 <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f_2%282%2C1%29%3Df_3%282%2C1%29%3D0"> のような<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20f_1%2Cf_2%2Cf_3">があったとする
 
-----
+---- 
+
+
+# 3章 Hilbertの零点定理(Nullsterenzat(?))
+
+## 定理3.1 Hilbertの零点定理 弱型
+
+K: 代数敵閉体
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20K%5BX_1%2C...%2CX_n%5D">のイデアルIに対して
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5CBbb%20V_k%28I%29%3D%5Cphi%20%5CRightarrow%201%5Cin%20I">
+

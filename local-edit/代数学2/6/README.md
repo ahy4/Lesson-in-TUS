@@ -29,4 +29,16 @@ $f_1(X,Y,Z)=(X-Y)Z^2+XZ+Y$
 
 $f_2(2,1)=f_3(2,1)=0$ のような$f_1,f_2,f_3$があったとする
 
-----
+---- 
+
+
+# 3章 Hilbertの零点定理(Nullsterenzat(?))
+
+## 定理3.1 Hilbertの零点定理 弱型
+
+K: 代数敵閉体
+
+$K[X_1,...,X_n]$のイデアルIに対して
+
+$\Bbb V_k(I)=\phi \Rightarrow 1\in I$
+
