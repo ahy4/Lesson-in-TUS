@@ -44,10 +44,11 @@ function writeMd(fp) {
 function replaceToImage(text) {
   var texs = (text.match(/\$([^$]*)\$/g)||[]).map(function (incompleteTex) {
     console.log(incompleteTex);
-    var tex = incompleteTex.match(/\$([^$]*)\$/)[1];
+    var re1 = incompleteTex.match(/\$([^$]*)\$/);
+    var tex = (re1 && re1[1]);
     var query = escape(tex);
     return {
-      original: incompleteTex.match(/\$([^$]*)\$/)[0],
+      original: re1[0],
       imageMd: '<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20'+query+'">',
     };
   });
