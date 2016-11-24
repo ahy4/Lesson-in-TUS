@@ -68,3 +68,39 @@ a,b,c...  もの　　第０型(zero type)
 高階述語関数
 
 〜低階述語関数に関する述語関数
+
+## 標準１階述語論理
+
+### [原始記号]
+
+SLPCはSPCの上に展開される
+
+a,b,c ... [対象定項]
+
+x,y,z ... [対象変項]
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cphi%2C%5Cpsi%2C%5Czeta"> ... [述語関数記号]
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cexists"> [原始高階関数記号]
+
+### [構成規則]
+
+SPC論理式の命題項(A,B,C,...,p,q,r,...)に
+
+任意のSLPC論理式を代入して得られる式は
+
+SLPC論理式である
+
+FR1  任意の述語関数記号<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cphi">の後ろに
+
+対象項<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20t_1%2Ct_2%2C...%2Ct_n">のベクトルをつけてできる <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cvarphi%28t_1%2C...%2Ct_n%29"> はSLPC論理式である
+
+FR2  任意の対象変項xを含む、任意のSLPC論理式α(x)の前に <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cexists%20x"> をつけてできる
+
+<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cexists%20x%7E%5B%5Calpha%28x%29%5D"> はSLPC論理式である
+
+----
+
+[]派生記号の定義]
+
+Df.<img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cforall">  <img src="https://latex.codecogs.com/gif.latex?%5Cdpi%7B120%7D%20%5Cforall%20x%7E%7E%5B%5Calpha%28x%29%5D%5Cequiv%20df%20%7E%7E%5Csim%5Cexists%20x%20%7E%7E%20%5B%5Csim%5Calpha%28x%29%5D">
